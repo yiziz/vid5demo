@@ -1,0 +1,10 @@
+Size: 96.4MB
+
+Main files edited:
+vid5demo\war\Vid5demo.html
+vid5demo\src\com\html5\vid5demo\Vid5demo.gwt.xml
+vid5demo\src\com\html5\vid5demo\client\Vid5demo.java
+
+Video resources:
+vid5demo\src\com\html5\vid5demo\public\videos\Wildlife.jpg
+vid5demo\src\com\html5\vid5demo\public\videos\Wildlife.webm
