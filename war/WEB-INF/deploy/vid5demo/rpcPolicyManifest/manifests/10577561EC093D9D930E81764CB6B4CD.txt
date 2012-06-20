@@ -1,0 +1,2 @@
+serviceClass: com.html5.vid5demo.client.GreetingService
+path: 16C5707815A76A9784810BC7CD94A1F4.gwt.rpc
