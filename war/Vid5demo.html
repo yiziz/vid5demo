@@ -23,7 +23,46 @@
     <!-- If you add any GWT meta tags, they must   -->
     <!-- be added before this line.                -->
     <!--                                           -->
+    
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" language="javascript" src="vid5demo/vid5demo.nocache.js"></script>
+    <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet" />
+    <style type="text/css" >
+        .arrow-down {
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+    
+            border-top: 20px solid black;
+            background-color:white;
+        }
+        #video {
+            display:table;
+            overflow:hidden;
+            background-color:black;
+            text-align:center;
+            padding-top:10px;
+        }
+        div.video-js {
+            margin:0 auto;
+            padding:10px;
+        }
+        div#video #closeButton {
+            background-color:black;
+            background-image:none;
+            border:0;
+            color:white;
+            font-weight:bold;
+        }
+        #showVideo {
+            position:absolute;
+            left:300px;
+            top:300px;
+        }
+        
+    </style>
   </head>
 
   <!--                                           -->
@@ -48,10 +87,15 @@
       </div>
     </noscript>
     
-    <div id="video" style="display:table" >
-    </div>
-    <div id="vid5" style="height:400px;width:600px;">
-    </div>
+    <div id="video" style="width:340px;overflow:hidden;background-color:black;text-align:center;padding-top:10px" >
         
+        <div id="arrowWrapper" style="background-color:white;position:relative;">
+            <div class="vidArrow arrow-down" style="position:relative;" >
+            </div>
+        </div>
+    </div>
+    <div id="vid5" style="">
+    </div>
+
   </body>
 </html>
